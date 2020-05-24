@@ -1,0 +1,130 @@
+
+body{margin: 0%;
+background-image: url(imagenes/Foster.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/*Menu*/
+html {
+box-sizing: border-box;}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;}
+ .contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);}
+.contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);}
+header{  width: 100%;
+  position: fixed;
+  z-index: 100;}
+
+.contenedor ul, .contenedor li a{
+            display: block;
+            padding: 10px;
+            position: relative;
+            text-decoration: none;
+            text-align: left;
+            padding: 10px 30px;
+            color: white;
+            font-family: "Century Gothic";
+            font-size: 18px;
+            cursor: pointer;}
+
+ul li .inicio:after{
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: 100%;
+        height: 4px;
+        background-color: #9ab7bd;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+        transform: translateY(20px);}
+ul li a:hover:after{
+        opacity:1;
+        transform: translateY(15px) }
+.dropdown{display: relative;
+         display: inline-block;}
+.dropdown:hover .contenido{display: block;}
+/*Menu*/
+
+h1{
+font-family: "Verdana";
+font-size: 33px;
+color: #ed1a4f;
+margin-left: 30%;
+text-align: justify;}
+p{
+font-family: "Candara";
+font-size: 22px;
+color: #202020;
+margin-left: 15%;
+margin-right: 15%;
+text-align: justify;}
+#impoli{
+  width: 99%;
+  margin-left: 0.5%;}
+#gr{width: 50%;
+    margin-left: 25%;}
+.foo{
+  width: 100%;
+  position: relative;
+  top:0px;
+  left: 0%;
+}
+.black{
+  width: 100%;
+  background-color: #1A1A1A;
+}
+
+/*animación*/
+.banner-a{
+    width: 301px;
+    height: 64.5px;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner-a 13s infinite;
+  }
+  @keyframes banner-a{
+    0%, 50%{ background-image: url(images/a-adidas.svg); }
+    65%, 100%{ background-image: url(images/a-adidas2.svg); }
+  }
+
+  .banner-b{
+    width: 301px;
+    height: 64.5px;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner-b 10s infinite;
+  }
+  @keyframes banner-b{
+    0%, 30%{ background-image: url(images/a-udemy.svg); }
+    35%, 60%{ background-image: url(images/a-udemy2.svg); }
+    65%, 100%{ background-image: url(images/a-udemy.svg); }
+}
+/*animación*/
+
+
+
